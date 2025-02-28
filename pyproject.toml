@@ -1,0 +1,19 @@
+[project]
+
+requires-python = ">=3.13.2"
+name = 'rl-course'
+version = '0.0.1'
+dependencies = [
+    "gymnasium[box2d,classic-control,other,toy-text]>=1.0.0",
+    "ipykernel>=6.29.5",
+    "joblib>=1.4.2",
+    "lightning>=2.5.0.post0",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.3",
+    "pygame>=2.6.1",
+    "scikit-learn>=1.6.1",
+    "swig>=4.3.0",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+]
