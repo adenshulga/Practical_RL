@@ -4,6 +4,8 @@ requires-python = ">=3.13.2"
 name = 'rl-course'
 version = '0.0.1'
 dependencies = [
+    "graphviz>=0.20.3",
+    "gym>=0.26.2",
     "gymnasium[box2d,classic-control,other,toy-text]>=1.0.0",
     "ipykernel>=6.29.5",
     "joblib>=1.4.2",
